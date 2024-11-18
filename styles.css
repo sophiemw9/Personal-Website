@@ -74,9 +74,11 @@ h2{
 
 img{
     float:left;
-    width:40%;
+    width:600px;
+    height:auto;
     margin-left:100px;
     margin-right:100px;
+    border-radius:8px;
 }
 
 .summary-right{
@@ -88,6 +90,7 @@ img{
 .section-2{
     display:flex;
     margin-top:30px;
+    justify-content: stretch;
 }
 
 .summary-left{
