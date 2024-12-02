@@ -36,7 +36,6 @@ header{
 
 button{
     font-family:'Alumni Sans Pinstripe', sans-serif;
-    font-style: bold;
     font-size: 22px;
     padding: 10px 15px;
     cursor: pointer;
@@ -67,6 +66,13 @@ footer{
 
 }
 
+img{
+    width:100%;
+    height:auto;
+    margin-right:100px;
+    border-radius:8px;
+}
+
 /* home layout */
 .section-1{
     display:flex;
@@ -90,7 +96,7 @@ h2{
 img{
     width:100%;
     height:auto;
-    margin-left:100px;
+/*    margin-left:100px; */
     margin-right:100px;
     border-radius:8px;
 }
@@ -155,6 +161,13 @@ h1{
     }
 }
 
+.home-img {
+    width:100%;
+    height:auto;
+    margin-right:100px;
+    margin-left:100px;
+    border-radius:8px;
+}
 
 
 
@@ -178,6 +191,7 @@ h1{
 
 
 .poster {
+    position:relative;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -193,7 +207,6 @@ h1{
 }
 
 
-
 .poster img {
     width: 100%;
     height: auto;
@@ -204,13 +217,15 @@ h1{
 .poster h2 {
     margin: 10px 0;
     font-size: 1.5em;
-    color: #222;
+    color: #fff;
 }
 
 
 .poster p {
     font-size: 1em;
-    color: #666;
+    color: #fff;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 
@@ -233,10 +248,10 @@ h1{
     background: rgba(0, 0, 0, 0.6); 
     color: #fff;
     opacity: 0;
-    visibility: hidden; 
     transform: scale(0.95); 
     transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
 }
+    
 
 .colour-scheme {
     max-width:200px;
