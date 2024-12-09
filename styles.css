@@ -90,16 +90,17 @@ main{
 
 h2{
     font-size:30px;
-    width:70%;
+    width:80%;
     text-align:center;
 
 }
 
 
 .summary-right{
-    width:50%;
-    margin-left:100px;
+    /* width:50%; */
+    /* margin-left:100px; */
     text-align:left;
+    margin-right:5%;
 }
 
 
@@ -123,7 +124,7 @@ h2{
 }
 
 p{
-    text-indent:40px;
+    text-indent:40x;
     font-size:20px;
 }
 
@@ -159,7 +160,7 @@ h1{
 }
 
 .home-img {
-    width:50%; 
+    width:70%; 
     height:auto;
     /* margin-right:100px; */
     margin-left: 10%;
@@ -203,7 +204,7 @@ h1{
 
 .poster:hover {
     transform: scale(1.05); 
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2) 8px; 
 }
 
 
